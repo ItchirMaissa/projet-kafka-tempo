@@ -19,7 +19,7 @@ public final class Topics {
     /** Code groupe, obligatoire sur le cluster partage. */
     public static final String GROUPE = ConfigProvider.getConfig()
             .getOptionalValue("GROUPE", String.class)
-            .orElse("grp00");
+            .orElse("grp02");
 
     public static String out(String suffix) {
         return GROUPE + "." + suffix;
