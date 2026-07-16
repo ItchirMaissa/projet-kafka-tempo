@@ -1,0 +1,24 @@
+# Build Maven / Quarkus
+target/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.metals/
+.bloop/
+.settings/
+.classpath
+.project
+
+# Python (generateurs)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
